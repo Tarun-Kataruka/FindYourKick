@@ -1,9 +1,8 @@
 ## Getting Started
 
 1. Clone the repository:
-
    ```bash
-  git clone https://github.com/your-username/FindYourKick.git
+  git clone https://github.com/Tarun-Kataruka/FindYourKick.git
   cd FindYourKick
    ```
 
