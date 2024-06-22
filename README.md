@@ -1,0 +1,1 @@
+Welcome to FindYourKick, an innovative e-commerce web application developed using React, JavaScript, Node.js, Express.js and uses MongoDB for database. It is designed to provide a seamless shopping experience for fashion enthusiasts. Our platform offers a diverse range of products across three main categories, ensuring that every customer finds their perfect pair. 
