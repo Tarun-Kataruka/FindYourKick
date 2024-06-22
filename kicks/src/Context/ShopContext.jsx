@@ -18,7 +18,7 @@ import React, { createContext, useEffect, useState } from 'react'
     const [category_products , setCategoryProducts] = useState([]);
 
     useEffect(()=>{
-        fetch('http://localhost:4000/allproducts')
+        fetch('https://findyourkick.onrender.com/allproducts')
         .then((response)=>response.json())
         .then((data)=>setAll_Product(data))
 
@@ -26,7 +26,7 @@ import React, { createContext, useEffect, useState } from 'react'
         console.log('Auth-Token:',authToken);
 
         if(authToken){
-            fetch('http://localhost:4000/getcart',{
+            fetch('https://findyourkick.onrender.com/getcart',{
                 method:'POST',
                 headers:{
                     Accept:'application/json',
@@ -47,7 +47,7 @@ import React, { createContext, useEffect, useState } from 'react'
     
     const fetchProductByCategory = async (category) =>{
         try{
-        const response = await fetch(`http://localhost:4000/products/${category}`)
+        const response = await fetch(`https://findyourkick.onrender.com/products/${category}`)
         if (!response.ok) {
             if (response.status === 404) {
               console.error('Category not found');
@@ -68,7 +68,7 @@ import React, { createContext, useEffect, useState } from 'react'
     const addToCart = async (itemId) => {
         setCartItems((prev) => ({...prev,[itemId]: (prev[itemId] || 0)+1}))
         if(localStorage.getItem('auth-token')){
-            await fetch('http://localhost:4000/addtocart',{
+            await fetch('https://findyourkick.onrender.com/addtocart',{
                 method:'POST',
                 headers:{
                     Accept:'application/json',
@@ -93,7 +93,7 @@ import React, { createContext, useEffect, useState } from 'react'
     const removeFromCart = async (itemId) => {
         setCartItems((prev) => ({...prev,[itemId]: prev[itemId]-1}))
         if(localStorage.getItem('auth-token')){
-            await fetch('http://localhost:4000/removefromcart',{
+            await fetch('https://findyourkick.onrender.com/removefromcart',{
                 method:'POST',
                 headers:{
                     Accept:'application/form-data',

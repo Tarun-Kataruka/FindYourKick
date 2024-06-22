@@ -8,7 +8,7 @@ const Payment = () => {
   const [loading, setLoading] = useState(false);
   const getToken = async () => {
     try {
-      const response = await fetch("http://localhost:4000/api/v1/product/braintree/token")
+      const response = await fetch("https://findyourkick.onrender.com/api/v1/product/braintree/token")
       if(!response.ok){
         throw new Error('Failed to get token')
       }
@@ -31,7 +31,7 @@ const Payment = () => {
     try {
       setLoading(true)
       const {nonce} = await instance.requestPaymentMethod();
-      const {data} = await fetch("http://localhost:4000/api/v1/product/braintree/payment",{
+      const {data} = await fetch("https://findyourkick.onrender.com/api/v1/product/braintree/payment",{
         nonce, cart
       }) 
       setLoading(false)

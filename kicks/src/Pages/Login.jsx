@@ -20,7 +20,7 @@ const Login = () => {
   const login = async(e) =>{
     e.preventDefault();
     try{
-    const responseData=await fetch('http://localhost:4000/login', {
+    const responseData=await fetch('https://findyourkick.onrender.com/login', {
         method: "POST",
         headers: {
           'Accept': 'application/json',
@@ -56,7 +56,7 @@ const Login = () => {
     e.preventDefault();
     try{
    
-    const responseData=await fetch('http://localhost:4000/signup', {
+    const responseData=await fetch('https://findyourkick.onrender.com/signup', {
         method: "POST",
         headers: {
           'Accept': 'application/json',
