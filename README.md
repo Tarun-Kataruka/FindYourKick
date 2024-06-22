@@ -20,7 +20,7 @@ Admin Panel: Manage products, categories, and orders.
 Responsive Design: Optimized for both desktop and mobile devices.
 
 ## Contributing
-- Please check the [Contributions](https://github.com/Akash-Singh04/EduSync/blob/master/CONTRIBUTING.md) file for instructions on how to get started with the project on your local system
+- Please check the [Contributions](https://github.com/Tarun-Kataruka/FindYourKick/blob/main/Contributing.md) file for instructions on how to get started with the project on your local system
 - Contributions are welcome! Feel free to fork the repository, make improvements, and create pull requests.
 - Please view the list of open issues at [Issues](https://github.com/Tarun-Kataruka/FindYourKick/issues). Any contributions to them are welcome.
 
