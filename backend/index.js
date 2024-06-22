@@ -53,7 +53,7 @@ app.use('/Images',express.static('Upload/Images'))
 app.post("/Upload",upload.single('product'),(req,res)=>{
     res.json({
         success:1,
-        image_url:`${port}/Images/${req.file.filename}`
+        image_url:`https://findyourkick.onrender.com/Images/${req.file.filename}`
     })
 })
 

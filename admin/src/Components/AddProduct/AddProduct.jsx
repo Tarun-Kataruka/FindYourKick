@@ -37,7 +37,7 @@ const AddProduct = () => {
             body: formData,
         }).then((resp) => resp.json()).then((data) => { responseData = data })
 
-        if (responseData.success) {
+        if (responseData) {
             product.image = responseData.image_url;
             console.log(product);
             await fetch('https://findyourkick.onrender.com/addproduct',{
@@ -48,7 +48,7 @@ const AddProduct = () => {
                 },
                 body:JSON.stringify(product),
             }).then((resp)=>resp.json()).then((data)=>{
-                data.sucess?alert("Product Added"):alert("Failed")
+                data?alert("Product Added"):alert("Failed")
             })
         }
     }
