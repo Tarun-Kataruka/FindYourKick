@@ -25,7 +25,6 @@
 4. SetUp
 
 a. Environment variables:
-
 - Create a `.env.local` file in the root directory of your project (ensure it's added to `.gitignore` for security).
 - Add the Firebase configuration details as environment variables:
 
@@ -61,4 +60,4 @@ If you have any questions or need further assistance, feel free to open an issue
 
 We appreciate your contributions and look forward to your involvement in improving Motion-Amplification-Video!
 
-# Please view the list of open issues at [Issues](https://github.com/Tarun-Kataruka/FindYourKick/issues). Any contributions to them are welcome.
+## Please view the list of open issues at [Issues](https://github.com/Tarun-Kataruka/FindYourKick/issues). Any contributions to them are welcome.
