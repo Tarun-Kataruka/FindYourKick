@@ -7,6 +7,7 @@ FindYourKick is a comprehensive e-commerce platform tailored for  genZ. The appl
 1. Sneakers
 2. Bags
 3. Hoodies
+
 The project covers the entire e-commerce workflow, from product listing and user authentication to shopping cart management and order processing.
 
 ## Features
