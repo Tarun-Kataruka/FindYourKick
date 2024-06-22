@@ -26,7 +26,13 @@ Responsive Design: Optimized for both desktop and mobile devices.
 
   ## Deployment
 
-The live deployment of QuizQuest can be accessed at [FindYourKick](https://find-your-kick.vercel.app/).
+The live deployment of FindYourKick can be accessed at [FindYourKick](https://find-your-kick.vercel.app/).
+
+## Project Structure
+The project is organized into three main folders:
+1. admin: Contains the administration panel for managing products, categories, and orders.
+2. kicks: Contains the main frontend application for customers to browse and purchase products.
+3. backend: Contains the Node.js and Express backend API.
 
   ## Tech Stack
 
