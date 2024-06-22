@@ -1,10 +1,10 @@
 ## Getting Started
 
 1. Clone the repository:
-   ```bash
+```bash
   git clone https://github.com/Tarun-Kataruka/FindYourKick.git
   cd FindYourKick
-   ```
+```
 
 2. Install dependencies for backend:
 
