@@ -1,0 +1,1 @@
+Welcome to FindYourKick, an innovative e-commerce web application  developed using React.js, Node.js, Express.js and JavaScript, designed to provide a seamless shopping experience for fashion enthusiasts. Our platform offers a diverse range of products across three main categories, ensuring that every customer finds their perfect pair.
